@@ -1,12 +1,16 @@
 # Simple Keyboard with Emojis
 
-Forked from https://github.com/rkkr/simple-keyboard wich forked from https://android.googlesource.com/platform/packages/inputmethods/LatinIME/
-
-<img src="images/screenshot-0.png"
+<img src="images/screenshot-1.png"
+alt="emojis"
+height="500"/><img src="images/screenshot-0.png"
       alt="closeup"
       width="500"/>
 
-You can contribute to translate the project to your language: [![Crowdin](https://d322cqt584bo4o.cloudfront.net/simple-keyboard/localized.svg)](https://crowdin.com/project/simple-keyboard)
+
+Forked from https://github.com/rkkr/simple-keyboard wich forked from https://android.googlesource.com/platform/packages/inputmethods/LatinIME/
+
+
+
 
 [<img src="https://f-droid.org/badge/get-it-on.png"
       alt="Get it on F-Droid"
