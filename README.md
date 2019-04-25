@@ -1,5 +1,7 @@
 # Simple Keyboard with Emojis
 
+A lightweight and simple keyboard with basic support for Emojis. All basic faces and some specially picked ones are available. IMPORTANT: Not all Emojis are currently accessible!
+
 <img src="images/screenshot-1.png"
 alt="emojis"
 height="500"/><img src="images/screenshot-0.png"
