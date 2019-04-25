@@ -26,7 +26,7 @@
         <item>@string/keyboard_theme_dark_border</item>
     </string-array>
     <!-- An element must be a keyboard theme id of
-         {@link rkr.simplekeyboard.inputmethod.keyboard.KeyboardTheme#THEME_ID_ICS} etc. -->
+         {@link yellowtech.simplekeyboardwithemojis.inputmethod.keyboard.KeyboardTheme#THEME_ID_ICS} etc. -->
     <integer-array name="keyboard_theme_ids" translatable="false">
         <item>3</item>
         <item>4</item>

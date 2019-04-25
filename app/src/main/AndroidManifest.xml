@@ -15,17 +15,17 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rkr.simplekeyboard.inputmethod">
+    package="yellowtech.simplekeyboardwithemojis.inputmethod">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher_keyboard"
+        android:icon="@mipmap/ic_launcher_round"
         android:label="@string/english_ime_name"
         android:supportsRtl="true">
         <activity
-            android:name=".keyboard.SetupActivity"
+            android:name="yellowtech.simplekeyboardwithemojis.inputmethod.keyboard.SetupActivity"
             android:label="@string/english_ime_setup">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,7 +35,7 @@
         </activity>
         <!-- Services -->
         <service
-            android:name=".latin.LatinIME"
+            android:name="yellowtech.simplekeyboardwithemojis.inputmethod.latin.LatinIME"
             android:label="@string/english_ime_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
@@ -48,14 +48,14 @@
         </service>
 
         <activity
-            android:name=".latin.settings.SettingsActivity"
+            android:name="yellowtech.simplekeyboardwithemojis.inputmethod.latin.settings.SettingsActivity"
             android:label="@string/english_ime_settings"
             android:theme="@style/platformSettingsTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity> <!-- Broadcast receivers -->
-        <receiver android:name=".latin.SystemBroadcastReceiver">
+        <receiver android:name="yellowtech.simplekeyboardwithemojis.inputmethod.latin.SystemBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.LOCALE_CHANGED" />
             </intent-filter>
