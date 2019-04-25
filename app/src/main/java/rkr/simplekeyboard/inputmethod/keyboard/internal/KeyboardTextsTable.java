@@ -382,19 +382,19 @@ public final class KeyboardTextsTable {
         // U+2153: "⅓" VULGAR FRACTION ONE THIRD
         // U+00BC: "¼" VULGAR FRACTION ONE QUARTER
         // U+215B: "⅛" VULGAR FRACTION ONE EIGHTH
-        /* morekeys_symbols_1 */ "\u00B9,\u00BD,\u2153,\u00BC,\u215B",
+        /* morekeys_symbols_1 */ "\u00B9,\u00BD,\u2153,\u00BC,\u215B,\uD83D\uDE00,\uD83D\uDE01,\uD83D\uDE02,\uD83E\uDD23,\uD83D\uDE03,\uD83D\uDE04,\uD83D\uDE05,\uD83D\uDE06,\uD83D\uDE09,\uD83D\uDE0A,\uD83D\uDE0B,\uD83D\uDE0E,\uD83D\uDE0D,\uD83D\uDE18,\uD83E\uDD70,\uD83D\uDE17,\uD83D\uDE19,\uD83D\uDE1A,☺️,\uD83D\uDE42,\uD83E\uDD17,\uD83E\uDD29,\uD83E\uDD14,\uD83E\uDD28",
         // U+00B2: "²" SUPERSCRIPT TWO
         // U+2154: "⅔" VULGAR FRACTION TWO THIRDS
-        /* morekeys_symbols_2 */ "\u00B2,\u2154",
+        /* morekeys_symbols_2 */ "\u00B2,\u2154,\uD83D\uDE10,\uD83D\uDE11,\uD83D\uDE36,\uD83D\uDE44,\uD83D\uDE0F,\uD83D\uDE23,\uD83D\uDE25,\uD83D\uDE2E,\uD83E\uDD10,\uD83D\uDE2F,\uD83D\uDE2A,\uD83D\uDE2B,\uD83D\uDE34,\uD83D\uDE0C,\uD83D\uDE1B,\uD83D\uDE1C,\uD83D\uDE1D,\uD83E\uDD24,\uD83D\uDE12,\uD83D\uDE13,\uD83D\uDE14,\uD83D\uDE15",
         // U+00B3: "³" SUPERSCRIPT THREE
         // U+00BE: "¾" VULGAR FRACTION THREE QUARTERS
         // U+215C: "⅜" VULGAR FRACTION THREE EIGHTHS
-        /* morekeys_symbols_3 */ "\u00B3,\u00BE,\u215C",
+        /* morekeys_symbols_3 */ "\u00B3,\u00BE,\u215C,\uD83D\uDE43,\uD83E\uDD11,\uD83D\uDE32,☹️,\uD83D\uDE41,\uD83D\uDE16,\uD83D\uDE1E,\uD83D\uDE1F,\uD83D\uDE24,\uD83D\uDE22,\uD83D\uDE2D,\uD83D\uDE26,\uD83D\uDE27,\uD83D\uDE28,\uD83D\uDE29,\uD83E\uDD2F,\uD83D\uDE2C,\uD83D\uDE30,\uD83D\uDE31,\uD83E\uDD75,\uD83E\uDD76,\uD83D\uDE33,\uD83E\uDD2A,\uD83D\uDE35",
         // U+2074: "⁴" SUPERSCRIPT FOUR
-        /* morekeys_symbols_4 */ "\u2074",
+        /* morekeys_symbols_4 */ "\u2074,\uD83D\uDE21,\uD83D\uDE20,\uD83E\uDD2C,\uD83D\uDE37,\uD83E\uDD12,\uD83E\uDD15,\uD83E\uDD22,\uD83E\uDD2E,\uD83E\uDD27,\uD83D\uDE07,\uD83E\uDD20,\uD83E\uDD21,\uD83E\uDD73,\uD83E\uDD74,\uD83E\uDD7A,\uD83E\uDD25,\uD83E\uDD2B,\uD83E\uDD2D,\uD83E\uDDD0,\uD83E\uDD13,\uD83D\uDE08,\uD83D\uDC7F,\uD83D\uDC7B,\uD83D\uDCA9",
         // U+215D: "⅝" VULGAR FRACTION FIVE EIGHTHS
-        /* morekeys_symbols_5 */ "\u215D",
-        /* morekeys_symbols_6 */ EMPTY,
+        /* morekeys_symbols_5 */ "\u215D,\uD83E\uDD32,\uD83D\uDC50,\uD83D\uDE4C,\uD83D\uDC4F,\uD83E\uDD1D,\uD83D\uDC4D,\uD83D\uDC4E,\uD83D\uDC4A,✊,\uD83E\uDD1B,\uD83E\uDD1C,\uD83E\uDD1E,✌️,\uD83E\uDD1F,\uD83E\uDD18,\uD83D\uDC4C",
+        /* morekeys_symbols_6 */ "\uD83D\uDC35,\uD83D\uDE49,\uD83D\uDE4A,\uD83D\uDC48,\uD83D\uDC49,\uD83D\uDC46,\uD83D\uDC47,☝️,✋,\uD83E\uDD1A,\uD83D\uDD90,\uD83D\uDD96,\uD83D\uDC4B,\uD83E\uDD19,\uD83D\uDCAA,\uD83E\uDDB5,\uD83E\uDDB6,\uD83D\uDD95,✍️,\uD83D\uDE4F,\uD83D\uDC40",
         // U+215E: "⅞" VULGAR FRACTION SEVEN EIGHTHS
         /* morekeys_symbols_7 */ "\u215E",
         /* morekeys_symbols_8 */ EMPTY,
@@ -2044,7 +2044,7 @@ public final class KeyboardTextsTable {
         // U+058F: "֏" ARMENIAN DRAM SIGN
         // TODO: Enable this when we have glyph for the following letter
         // <string name="keyspec_currency">&#x058F;</string>
-        // 
+        //
         // U+055D: "՝" ARMENIAN COMMA
         /* keyspec_comma */ "\u055D",
         /* morekeys_tablet_comma */ null,
