@@ -1,6 +1,6 @@
-# Simple Keyboard
+# Simple Keyboard with Emojis
 
-Forked from https://android.googlesource.com/platform/packages/inputmethods/LatinIME/
+Forked from https://github.com/rkkr/simple-keyboard wich forked from https://android.googlesource.com/platform/packages/inputmethods/LatinIME/
 
 <img src="images/screenshot-0.png"
       alt="closeup"
